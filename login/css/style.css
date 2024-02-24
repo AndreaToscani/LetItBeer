@@ -1,0 +1,97 @@
+.form-container{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.form-container form {
+
+    border-radius: .5rem;
+    background-color: var(--white);
+    text-align: center;
+    margin: 4rem;
+}
+
+.form-container form h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--light-color);
+}
+
+.form-container form .box{
+    width: 80%;
+    border-radius: 2rem;
+    padding: 1.2rem 1.4rem;
+    font-size: 2rem;
+    background-color: var(--main-color);
+    margin: 1rem;
+    border-color: var(--black);
+    
+
+}
+
+.form-container form a{
+    font-size: 3rem;
+    color: var(--light-color);
+
+}
+
+.form-container form a:hover{
+    text-decoration: underline;
+
+}       
+
+.form-container form .btn{
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.message{   
+    background-color: var(--main-color);
+    padding:2rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    position:absolute;
+    z-index:3;
+}
+
+.message span{
+    color:var(--white);
+    font-size: 2rem;
+}
+
+.message i{
+    font-size: 2.5rem;
+    color:var(--white);
+    font-size: 2.5rem;
+    cursor:pointer;
+    
+}
+
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+ 
+}
+
+.back{
+    backface-visibility: hidden;
+    transform: rotateZ(-180deg);
+}
+
+
+
+.flipCard{
+    transform: rotateZ(180deg);
+}
+
+

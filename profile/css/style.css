@@ -1,0 +1,313 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .profile-card-container{
+    text-align: center !important;
+    margin-top: 8rem;
+    border-radius: .5rem;
+    width: 500px;
+	height: 700px;
+    background-color: var(--white);
+    
+}
+
+.container .main-container{
+    text-align: left;
+    margin-top: 8rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.container .main-container h1{
+    font-size: 3rem;
+    font-family: Title;
+    color: var(--black);
+
+}
+
+.container .profile-card-container .profile-card{
+    text-align: center;
+    height: 100%;
+    width:100% ;
+    
+}
+
+.container .profile-card-container .profile-card h3{
+    font-size: 3rem;
+    color: var(--light-color);
+    
+}
+
+.container .profile-card-container .profile-card img{
+    width: 19rem;
+    height: 19rem;
+    border: 3px solid var(--black);
+    border-radius: 50%;
+
+}
+
+.container .profile-card-container .sidebar{
+
+    height: auto;
+    text-align: center;
+    width:100%;
+}
+
+.container .profile-card-container .sidebar button{
+    width: 200px;
+}
+
+.container .main-container .scheda-amico{
+    width:90%;
+    margin: auto;
+    height: auto;
+    padding: 2rem;
+    background-color: var(--green);
+    border-style:solid;
+    border-color: var(--black);
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.container .main-container .scheda-amico img{
+    width: 10%;
+    height: fit-content;
+    border-style:solid;
+    border-color: var(--black);
+    border-radius: 50%;
+    
+}
+
+
+.container .main-container .vetrina-pers{
+    display: flex;
+    width: auto;
+    height: auto;
+
+    padding: 2rem;
+
+    margin: auto;
+
+    margin-bottom: 2rem;
+    background-color: var(--main-color );
+    
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #f9b07c 12%, transparent 12.5%, transparent 87%, #f9b07c 87.5%, #f9b07c), linear-gradient(150deg, #f9b07c 12%, transparent 12.5%, transparent 87%, #f9b07c 87.5%, #f9b07c), linear-gradient(30deg, #f9b07c 12%, transparent 12.5%, transparent 87%, #f9b07c 87.5%, #f9b07c), linear-gradient(150deg, #f9b07c 12%, transparent 12.5%, transparent 87%, #f9b07c 87.5%, #f9b07c), linear-gradient(60deg, #f9b07c77 25%, transparent 25.5%, transparent 75%, #f9b07c77 75%, #f9b07c77), linear-gradient(60deg, #f9b07c77 25%, transparent 25.5%, transparent 75%, #f9b07c77 75%, #f9b07c77);
+    background-size: 54px 95px;
+    background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+
+    border-style:solid;
+    border-color: var(--black);
+    border-radius: .5rem;
+    
+   
+}
+
+.container .main-container h3{
+    font-size: 3rem;
+    color: var(--black);
+    padding-left: 1rem;
+
+}
+
+.container .main-container .scheda-birra{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.container .main-container .scheda-birra img{
+    border-style:solid;
+    border-color: var(--black);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.container .main-container .scheda-birra h3{
+    font-size: 3rem;
+    color: var(--black);
+    
+  
+
+}
+.scheda-birra h3{
+    text-align:center !important;
+    float:center !important;
+}
+.container .main-container .descrizione{
+    height: auto;
+    width: 50%;
+    border-style: dotted;
+    border-color: var(--red);
+    clip-path: polygon(0% 5%, 5% 5%, 5% 0%, 95% 0%, 95% 5%, 100% 5%, 100% 95%, 95% 95%, 95% 100%, 5% 100%, 5% 95%, 0% 95%);
+    background-color: var(--white);
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.container .main-container .descrizione p{
+    font-size: 2.5rem;
+    color: var(--white);
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+
+}
+
+
+
+.container .main-container .row{
+    display: flex;
+    justify-items: center;
+
+}
+
+.card{
+
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.back{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);   
+}
+
+.front{
+    position:absolute;
+    backface-visibility: hidden;
+}
+
+.flipCard{
+    transform: rotateY(180deg);
+}
+
+.form-popup{
+    display:none;
+    position:absolute;
+    top:47%;
+    left:18%;
+    border-style: solid;
+    border-color: var(--black);
+    border-radius: .5rem;
+    max-width: 300px;
+}
+.form-popup button{
+    margin-bottom: .5rem;
+}
+
+.form-container{
+    background-color: var(--white);
+}
+
+.fa-x{
+    cursor: pointer;
+}
+
+hr.dotted {
+    border-top: 3px dotted var(--red);
+  }
+
+.commento{
+    width: 98%;
+    height: 24%;
+    background-color: var(--white);
+    border-style: solid;
+    font-family: MyFont;
+    font-size:2rem;
+    border-style: none; 
+    border-color: Transparent; 
+  
+}
+
+.icon-btn{
+    display:none;
+    font-size: 2.5rem;
+    color:var(--black);
+    cursor:pointer;
+}
+
+.small{
+    display:none;
+}
+
+
+
+
+@media (max-width:768px){
+    html{ font-size:50%}
+
+    .container .main-container{
+        min-height: 50vh;
+    }
+
+    .container .main-container .profile-card{
+        width: 40%;
+
+    }
+}
+
+@media(max-width:550px){
+    .sidebar{
+        text-align:center !important;
+    }
+
+    .small{
+        display: grid;
+        font-size: 12rem;
+        width: 100% !important;
+        height: 15rem !important;
+        text-align:center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .big{
+        display:none;
+    }
+    .main-container{
+        width:98% !important;
+        padding:1rem !important;
+    }
+    .vetrina-pers{
+        display:flex;
+    }
+}
+
+  
+  #bL{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:absolute;
+    width:100%;
+    
+  }
+  
+  #bL li a {
+   
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block;
+    z-index:2;
+    
+  }
+  
+  #bL li a:hover:not(.header) {
+    background-color: #eee; 
+  }

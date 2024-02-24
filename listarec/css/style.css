@@ -1,0 +1,62 @@
+.options{
+    text-align: right;
+    
+}
+
+.testa{
+    width:50%;
+}
+
+.options{
+    text-align: left;
+    margin-top: 8rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    width: 90%;
+    margin-bottom: .5rem;
+    
+}
+.options h1{
+    font-size: 3rem;
+    font-family: Title;
+    color: var(--black);
+
+  
+}
+
+.options .members{
+    font-size: 2rem;
+	font-family: MyFont;
+	width: 40%;
+	border-radius: .5rem;
+    height:60%;
+    background-color: var(--main-color);
+    border-color: var(--black);
+	
+}
+.options select{
+    width:40% !important;
+}
+.options .btn{
+    padding: .8rem;
+    
+}
+
+.main-container{
+    margin-top: 1rem !important;
+}
+
+.descrizione{
+    line-height: 1.8;
+}
+
+
+@media (max-width:550px){
+   .desc_r{
+       display:block;
+   }
+    .shame_r{
+        display:none !important;
+    }
+
+}

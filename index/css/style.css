@@ -1,0 +1,68 @@
+.home-bg{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/beer_bg.PNG") no-repeat;    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.home-bg .home{
+    min-height: 70rem;
+    display: flex;
+    align-items: center;
+} 
+
+.home-bg .home .content{
+    width: 70rem;
+    text-align: center;
+    align-items: center;
+}
+
+.home-bg .home .content h3{
+    font-size: 5rem; 
+    color: var(--main-color);
+    font-family: Title;
+} 
+
+.home-bg .home .content p{
+    font-size: 2rem;
+    color: var(--main-color);
+    line-height: 1;
+    font-family: MyFont;
+}
+
+.about .spiegazione{
+    margin-top: 3rem;
+    border: solid;
+    border-radius: .5rem;
+    background-color: var(--white);
+    padding: 3rem;
+    min-height: 50vh;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.about h3{
+    font-family: Title;
+    font-size: 3rem;
+    color: var(--light-color);
+    padding-bottom: 2rem;
+
+}
+
+.about h2{
+    font-family: Title;
+    font-size: 2rem;
+    color: var(--light-color);
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+
+}
+
+.about p{
+    font-size: 3rem;
+    color: var(--light-color);
+    width: 70%;
+
+}
